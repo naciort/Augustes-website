@@ -13,14 +13,12 @@ body * {
     width: 95%;
     margin-left: calc((100% - 95%) / 2);    
     margin-top: 20px;
-
 }
 
 header {        
     display: inline-block;
     float: left;
-    width: 100%;
-    
+    width: 100%;    
 }
 
 header>a {    
@@ -62,37 +60,19 @@ header>button {
     width: 60%;
     margin-left: calc((100% - 60%) / 2);
     margin-top: 100px;
-
 }
-.baltic {
+.koliazas {
     float: left;
     width: 50%;
-
 }
 
-.emp {
-    float: left;
-    width: 50%;
-
-}
-
-.logo-multi {
-    float: left;
-    width: 50%;
-
-}
-
-.glasses {
-    float: left;
-    width: 50%;
-
-}
 .apacia {
     display: inline-block;
     float: left;
     width: 100%;
     margin-top: 50px;
 }
+
 .copyright {
     width: 50%;
     font-size: 12px;
@@ -104,6 +84,7 @@ header>button {
     float: right;
     padding: 16px;
 }
+
 .insta-img {
     width: 20px;
 }

@@ -1,0 +1,52 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body {
+    background-color: #f3e2ea;
+    position: relative;
+}
+.menu-header {
+    display: inline-block;
+    float: left;
+    width: 95%;
+    margin-left: calc((100% - 95%) / 2);    
+    margin-top: 20px;
+}
+
+.header-a {
+    float: right;
+    font-size: 40px;
+    background-color: transparent;
+    border: none;
+    padding: 14.5px 0 14.5px 0;
+    cursor: pointer;
+    outline: none;
+}    
+.menu-container {
+    display: inline-block;
+    width: 95%;    
+    margin-left: calc((100% - 95%) / 2);   
+    text-align: center;
+
+
+}
+.menu-selector {
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    width: 100%;
+    line-height: 110px;
+}
+.akis {
+    float: left;
+    height: 30px;
+    margin-left: calc((100% - 30px) / 2);
+}

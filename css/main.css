@@ -21,7 +21,7 @@ header {
     width: 100%;    
 }
 
-header>a {    
+.header-logolink {    
     display: inline-block;
     float: left;
     width: 214px;
@@ -45,7 +45,7 @@ span {
     padding: 14px 0 14px 0;    
 }
 
-header>button {
+.header-menulink {
     float: right;
     font-size: 40px;
     background-color: transparent;
@@ -53,6 +53,10 @@ header>button {
     padding: 14.5px 0 14.5px 0;
     cursor: pointer;
     outline: none;
+}
+.meniu-button {
+    height: 30px;
+    width: 40px;
 }
 
 .koliazo-langas {
